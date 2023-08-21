@@ -31,18 +31,3 @@ int binary_Search(int arr[], int start, int end, int target) {
 	return -1;
 }
 
-int main(void)
-{
-    int arr[] = { 2, 3, 4, 10, 40 };
-    int x = 10;
-    int n = sizeof(arr) / sizeof(arr[0]);
-    int result1 = binarySearch(arr, 0, n -1, x);
-    int result2 = binary_Search(arr, 0, n - 1, x);
-    (result1 == -1)
-        ? std::cout << "Element is not present in array"
-        : std::cout << "Element is present at index " << result1 << std::endl;
-    (result2 == -1)
-	? std::cout << "Element is not present in array"
-	: std::cout << "Element is present at index " << result2;
-    return 0;
-}
