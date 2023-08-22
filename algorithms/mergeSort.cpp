@@ -39,10 +39,3 @@ void mergeSort(int arr[], int start, int end) {
         }
 }
 
-int main() {
-        int arr[] = {7, 4, 8, 5, 1, 2, 6, 9};
-        mergeSort(arr, 0, 7);
-        for(int i = 0; i < 8; ++i) {
-                std::cout << arr[i];
-        }
-}
