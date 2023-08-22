@@ -39,16 +39,3 @@ void bucketSort(double arr[], int n) {
 	}
 }
 
-int main() {
-    double arr[] = {0.42, 0.32, 0.33, 0.52, 0.37, 0.47, 0.51};
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    bucketSort(arr, n);
-
-    for (int i = 0; i < n; ++i) {
-        std::cout << arr[i] << " ";
-    }
-    std::cout << std::endl;
-
-    return 0;
-}
