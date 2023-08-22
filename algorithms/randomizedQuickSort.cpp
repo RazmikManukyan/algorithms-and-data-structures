@@ -33,18 +33,4 @@ void randomizedQuickSort(int arr[], int first, int last) {
 	}
 }
 
-int main() {
-    int arr[] = {2, 8, 7, 1, 3, 5, 6, 4};
-    int n = sizeof(arr) / sizeof(arr[0]);
 
-    // Seed the random number generator
-    srand(time(nullptr));
-
-    randomizedQuickSort(arr, 0, n - 1);
-    for (int i = 0; i < n; ++i) {
-        std::cout << arr[i] << " ";
-    }
-    std::cout << std::endl;
-
-    return 0;
-}
